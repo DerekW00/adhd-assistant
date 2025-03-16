@@ -13,6 +13,7 @@ import {
     BoltIcon,
     Cog6ToothIcon,
     BellIcon,
+    FireIcon,
 } from "@heroicons/react/24/outline";
 
 interface DashboardLayoutProps {
@@ -28,6 +29,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         { name: "Goals", href: "/goals", icon: ListBulletIcon },
         { name: "Daily Planner", href: "/planner", icon: CalendarIcon },
         { name: "Habits", href: "/habits", icon: ClockIcon },
+        { name: "Focus", href: "/focus", icon: FireIcon },
         { name: "Analytics", href: "/analytics", icon: ChartBarIcon },
     ];
 
@@ -74,8 +76,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                                         key={item.name}
                                         href={item.href}
                                         className={`group flex items-center px-3 py-3 text-sm font-medium rounded-lg ${isActive
-                                                ? "bg-primary/10 text-primary"
-                                                : "text-foreground hover:bg-muted"
+                                            ? "bg-primary/10 text-primary"
+                                            : "text-foreground hover:bg-muted"
                                             }`}
                                     >
                                         <item.icon
