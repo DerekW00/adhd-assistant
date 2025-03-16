@@ -1,22 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ADHD Assistant
+
+Your personalized ADHD assistant for focus, planning, and accountability.
+
+## Features
+
+### 1. Onboarding & User Setup
+- Welcome screen with app introduction
+- Preference selection (ADHD Mode vs. General Productivity Mode)
+- Personalization questionnaire
+- ADHD-friendly onboarding flow
+
+### 2. Goal Breakdown Engine
+- Add and manage big goals
+- AI-powered task breakdown
+- Customizable subtasks with due dates
+- Color-coding and visual organization
+
+### 3. Smart Daily Planner
+- Adaptive daily task lists
+- Energy/mood tracking
+- Intelligent task rescheduling
+- Visual timeline
+
+### 4. Accountability Check-ins
+- Customizable reminder notifications
+- Voice input for quick updates
+- Smart troubleshooting for missed tasks
+- Supportive coaching messages
+
+### 5. Habit-Building System
+- Weekly habit tracking
+- Streak management
+- Suggested habits based on user needs
+- Visual progress tracking
+
+### 6. Gamification & Streaks
+- Points and XP system
+- Unlockable coach personalities
+- Shareable achievements
+- Optional game elements
+
+### 7. Social Features
+- Buddy system for accountability
+- Group challenges
+- Privacy controls
+
+### 8. Premium Features
+- Subscription options
+- Advanced AI features
+- Unlimited habit tracking
+
+### 9. Analytics & Insights
+- Progress dashboard
+- Focus pattern recognition
+- Actionable recommendations
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start the production server
+npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- HeadlessUI
+- Framer Motion
+- Zustand (State Management)
+- Chart.js (Analytics)
+- NextAuth.js (Authentication)
+
+## Design Principles
+
+- ADHD-friendly UI with minimal text and clear visuals
+- Low-friction user flows
+- Immediate feedback and rewards
+- Calm color palette with strategic accent colors
+- Large, legible fonts and clear iconography
+- Celebration of small wins
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
